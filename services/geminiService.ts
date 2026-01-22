@@ -10,13 +10,9 @@
  */
 export const analyzeTranscript = async (transcript: string): Promise<string> => {
   try {
-    // 获取 API 路由 URL
-    // Get API route URL
-    // 在开发环境使用相对路径，在生产环境 Vercel 会自动处理
-    // Use relative path in development, Vercel handles it automatically in production
-    const apiUrl = import.meta.env.DEV 
-      ? '/api/analyze' 
-      : '/api/analyze';
+    // API 路由 URL（Vercel 会自动处理路由）
+    // API route URL (Vercel handles routing automatically)
+    const apiUrl = '/api/analyze';
 
     // 调用 Vercel Serverless Function
     // Call Vercel Serverless Function
