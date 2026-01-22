@@ -1,0 +1,5 @@
+{
+  "name": "DREAME RVC Video Analysis",
+  "description": "A specialized tool for UX Researchers to analyze YouTube reviews of Dreame robotic vacuums using Gemini.",
+  "requestFramePermissions": []
+}
